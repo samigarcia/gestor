@@ -1,4 +1,4 @@
-# app_2
+# gestor-de-password
 
 A new Flutter project.
 
