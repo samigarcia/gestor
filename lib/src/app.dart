@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:app_2/src/inicio.dart';
 
 class MyAppForm extends StatefulWidget {
   const MyAppForm({super.key});
@@ -97,7 +98,10 @@ class _MyAppFormState extends State<MyAppForm> {
                               ),
                               child: const Text('Guardar'),
                               onPressed: () {
-                                debugPrint('Click Guardado');
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => MyInicio()),
+                                );
                               },
                             ),
                           ),
