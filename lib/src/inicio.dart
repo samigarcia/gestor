@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Color textColor = Theme.of(context).brightness == Brightness.light ? Color(0xFF57636C) : Color(0xFF95A1AC);
     Color chiocColor = Theme.of(context).brightness == Brightness.light ? Color(0xFFE0E3E7) : Color(0xFF262D34);
     Color bordeColor = Theme.of(context).brightness == Brightness.light ? Color(0xFFF1F4F8) : Color(0xFF1D2428);
-    bool isDarkMode = AdaptiveTheme.of(context).mode == AdaptiveThemeMode.light;
+    //bool isDarkMode = AdaptiveTheme.of(context).mode == AdaptiveThemeMode.light;
 
 
     return Scaffold(
@@ -133,6 +133,8 @@ class _MyHomePageState extends State<MyHomePage> {
                               'Gestory Password',
                               style: TextStyle(
                                 fontSize: 22,
+                                fontFamily:
+                                'Title Large',
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
@@ -428,13 +430,17 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello world',
                                                   style: TextStyle(
                                                     fontSize: 19, // Tamaño de fuente
-                                                    fontWeight: FontWeight.w500, // Peso de fuente
+                                                    fontFamily:
+                                                    'Headline Small',
+                                                    fontWeight: FontWeight.w500,// Peso de fuente
                                                   ),
                                                 ),
 
                                                 Text('Hello World',
                                                   style: TextStyle(
                                                     fontSize: 14, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Body Small',
                                                     fontWeight: FontWeight.normal, // Peso de fuente
                                                   ),
                                                 ),
@@ -461,6 +467,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello world',
                                                   style: TextStyle(
                                                     fontSize: 19, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Headline Small',
                                                     fontWeight: FontWeight.w500, // Peso de fuente
                                                   ),
                                                 ),
@@ -468,6 +476,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello World',
                                                   style: TextStyle(
                                                     fontSize: 14, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Body Small',
                                                     fontWeight: FontWeight.normal, // Peso de fuente
                                                   ),
                                                 ),
@@ -494,6 +504,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello world',
                                                   style: TextStyle(
                                                     fontSize: 19, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Headline Small',
                                                     fontWeight: FontWeight.w500, // Peso de fuente
                                                   ),
                                                 ),
@@ -501,6 +513,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello World',
                                                   style: TextStyle(
                                                     fontSize: 14, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Body Small',
                                                     fontWeight: FontWeight.normal, // Peso de fuente
                                                   ),
                                                 ),
@@ -527,6 +541,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello world',
                                                   style: TextStyle(
                                                     fontSize: 19, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Headline Small',
                                                     fontWeight: FontWeight.w500, // Peso de fuente
                                                   ),
                                                 ),
@@ -534,6 +550,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello World',
                                                   style: TextStyle(
                                                     fontSize: 14, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Body Small',
                                                     fontWeight: FontWeight.normal, // Peso de fuente
                                                   ),
                                                 ),
@@ -560,12 +578,16 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello world',
                                                   style: TextStyle(
                                                     fontSize: 19, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Headline Small',
                                                     fontWeight: FontWeight.w500, // Peso de fuente
                                                   ),
                                                 ),
                                                 Text('Hello World',
                                                   style: TextStyle(
                                                     fontSize: 14, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Body Small',
                                                     fontWeight: FontWeight.normal, // Peso de fuente
                                                   ),
                                                 ),
@@ -592,12 +614,16 @@ class _MyHomePageState extends State<MyHomePage> {
                                                 Text('Hello world',
                                                   style: TextStyle(
                                                     fontSize: 19, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Headline Small',
                                                     fontWeight: FontWeight.w500, // Peso de fuente
                                                   ),
                                                 ),
                                                 Text('Hello World',
                                                   style: TextStyle(
                                                     fontSize: 14, // Tamaño de fuente
+                                                    fontFamily:
+                                                    'Body Small',
                                                     fontWeight: FontWeight.normal, // Peso de fuente
                                                   ),
                                                 ),
